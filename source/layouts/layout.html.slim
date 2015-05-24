@@ -1,0 +1,21 @@
+doctype html
+
+html lang="#{data.settings.site.i18n}"
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width,initial-scale=1"
+
+    title #{data.settings.site.title} • #{current_page.data.title}
+    meta name="description" content="#{current_page.data.description}"
+
+    = partial 'views/global/favicon'
+    = stylesheet_link_tag 'application'
+
+  body class='#{page_classes}'
+
+    .row
+      .small-8.small-centered.columns
+        == yield
+    = partial 'views/global/footer'
+    = javascript_include_tag 'application'
+    = yield_content :javascripts

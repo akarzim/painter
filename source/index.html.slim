@@ -1,0 +1,21 @@
+---
+title: Homepage
+description: 'Write less code, solve more problems'
+---
+
+h1 = data.settings.site.title
+p = data.settings.site.description
+p Je suis passionné par la peinture depuis plus de 20 ans et vous partage ma passion pour ce monde avec vous.
+
+hr
+ul.small-block-grid-1.medium-block-grid-3
+  - data.paints.each do |paint|
+    li
+      = image_tag lorem.image('200x200')
+      p = paint.name
+      p = paint.period
+      p = paint.price
+
+hr
+
+= link_to 'Me contacter', data.settings.site.url

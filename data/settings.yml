@@ -1,0 +1,6 @@
+site:
+  title: Painter
+  description: Site d’un artiste peintre originaire de Saint-omer
+  i18n: fr
+  url: 'https://github.com/flexbox/painter'
+  author: Charles Vantomme

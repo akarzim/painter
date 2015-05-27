@@ -1,3 +1,5 @@
 ---
 fr:
   gallery:
+    paintings:
+      currency: "%{price} €"

@@ -1,0 +1,13 @@
+.cards
+  - data.paints.each do |paint|
+    .card
+      .card-image
+        = image_tag lorem.image('600x500', background_color: '8c9a73', color: '353b37'), alt: paint.name
+      .card-header
+        = paint.name
+      .card-copy
+        .period
+          div = paint.support
+          div = paint.dimension
+        .price
+          = I18n.t 'gallery.paintings.currency', price: paint.price

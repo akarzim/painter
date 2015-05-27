@@ -1,4 +1,5 @@
 require 'slim'
+Slim::Engine.disable_option_validator!
 
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload

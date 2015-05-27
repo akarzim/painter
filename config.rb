@@ -9,6 +9,7 @@ activate :i18n
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
 set :images_dir, 'assets/images'
+set :fonts_dir, 'assets/fonts'
 
 # Add bower's directory to sprockets asset path
 after_configuration do

@@ -16,4 +16,5 @@
 # Ignore Bower Folder
 /bower_components
 
+# Ignore Gemfile.lock
 Gemfile.lock

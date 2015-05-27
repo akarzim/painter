@@ -1,85 +1,12 @@
-# codeless
+# Static web gallery of Charles VANTOMME
 
-Static site starter template for [Middleman](http://middlemanapp.com) based on [slimmer](https://github.com/polymatt/slimmer) with Ruby on Rails architecture.
+Based on [Codeless](https://github.com/flexbox/codeless) starter template for [Middleman](http://middlemanapp.com).
 
-###### Preprocessing
-- [Slim](http://slim-lang.com) *[for html]*
-- [Sass](http://sass-lang.com) *[for css]*
-- [CoffeeScript](http://coffeescript.org) *[for js]*
+## Authors
 
-###### Tools
-- [Bower](http://bower.io) *[js package management]*
-- [GitHub Pages](http://pages.github.com) *[deployment/hosting]*
-- [Middleman Autoprefixer](https://github.com/middleman/middleman-autoprefixer) *[Automatically add vendor prefixes to CSS rules]*
-- [Middleman Favicon Maker](https://github.com/follmann/middleman-favicon-maker) *[Generate favicon files in various sizes]*
-- [Middleman Live Reload](https://github.com/middleman/middleman-livereload) *[Reloads the page when files change]*
-
-
-## Getting Started
-
-Install Middleman
-
-    gem install middleman
-
-Install codeless template
-
-    mkdir ~/.middleman #if it doesn't exist yet
-    cd ~/.middleman
-    git clone git@github.com:flexbox/codeless.git codeless
-
-Start your project
-
-    cd ~/path/to/your/project
-    middleman init awesome-project --template=codeless
-
-### Bower
-
-Find and install the packages you need…
-
-    bower search package-name
-    bower install package-name -S
-
-Include the assets in your js/css files (paths relative to the root `bower_component` directory )
-
-###### css files
-
-    @import 'folder/file'`
-
-###### js files
-
-    #=require 'folder/file
-
-
-### Architecture
-
-Stylesheets, fonts, images, and JavaScript files go in the `/source/assets/` directory.
-Vendor stylesheets and JavaScripts should go in each of their `/bower_components/` directories.
-
-    codeless/
-    ├── bower_components/
-    │    └── ...
-    ├── source/
-    │   ├── assets/
-    │   └── ...
-
-### Deploying to GitHub Pages
-
-    rake publish
-
-Thanks to [neo](https://github.com/neo/middleman-gh-pages) for the deployment method. More information available there.
-
-
-## Contributing
-
-If you have problems, please create a [GitHub Issue](https://github.com/flexbox/codeless/issues).
-
-Have a fix or want to add a feature? [Pull Requests](https://github.com/flexbox/codeless/pulls) are welcome!
-
-## Author
-
-| [![twitter/_flexbox](https://gravatar.com/avatar/66ecc55f1bc2e5863eb516ee6f20794e?s=70)](https://twitter.com/_flexbox "Follow @_flexbox on Twitter") |
-|---|
-| [David Leuliette](http://davidl.fr/) |
+| [![twitter/_flexbox](https://gravatar.com/avatar/66ecc55f1bc2e5863eb516ee6f20794e?s=70)](https://twitter.com/_flexbox "Follow @_flexbox on Twitter") | [![twitter/akarzim](https://fr.gravatar.com/userimage/6672816/39540ddb0ba08ab741e03b2a94332e5b.jpg?size=70)](https://twitter.com/akarzim "Follow @akarzim on Twitter") |
+|---|---|
+| [David Leuliette](http://davidl.fr/) | [François Vantomme](http://github.com/akarzim) |
 
 ## License
 

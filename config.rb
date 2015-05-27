@@ -48,7 +48,7 @@ configure :build do
 
   activate :robots,
     rules: [{:user_agent => '*', :allow => %w(/)}],
-    sitemap: data.settings.site.url+'sitemap.xml'
+    sitemap: File.join(data.settings.site.url, 'sitemap.xml')
 
   # Use this for gh-pages
   activate :relative_assets

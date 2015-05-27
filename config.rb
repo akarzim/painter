@@ -24,7 +24,7 @@ configure :build do
     f.template_dir  = File.join(root, 'source')
     f.output_dir    = File.join(root, 'build')
     f.icons = {
-      'favicon_base.png' => [
+      File.join(images_dir, '_favicon_base.png') => [
         { icon: 'chrome-touch-icon-192x192.png' },
         { icon: 'apple-touch-icon.png', size: '152x152' },
         { icon: 'ms-touch-icon-144x144-precomposed.png', size: '144x144' },

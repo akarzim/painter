@@ -12,5 +12,6 @@ gem 'middleman-robots',           '~> 1.0.1'
 gem 'middleman-sitemap',          '~> 0.0.13'
 
 gem 'slim',    '~> 3.0.2'
+gem 'font-awesome-sass', '~> 4.3.2', require: false
 gem 'bourbon', '~> 4.2.3', require: false
 gem 'neat', '~> 1.7.2', require: false

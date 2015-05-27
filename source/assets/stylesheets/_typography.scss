@@ -1,0 +1,51 @@
+body {
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 2.6em;
+  margin-bottom: 0.2em;
+
+  @include media($medium-screen) {
+    font-size: 3.4em;
+  }
+}
+
+h2 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-bottom: 1.2em;
+
+  @include media($medium-screen) {
+    font-size: 1.3em;
+  }
+}
+
+h3 {
+ font-size: 1em;
+ font-weight: 700;
+ line-height: 1.4em;
+ margin-bottom: 0.5em;
+ text-transform: uppercase;
+}
+
+hr {
+  border-bottom: 1px solid $light-gray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+  width: 3em;
+}
+
+p {
+  color: $base-font-color;
+  letter-spacing: .03em;
+  line-height: $base-line-height;
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: $base-link-color;
+  text-decoration: none;
+}

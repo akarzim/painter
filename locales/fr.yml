@@ -1,5 +1,9 @@
 ---
 fr:
   gallery:
+    me:
+      resume: Repellat eos saepe perspiciatis distinctio maiores blanditiis deleniti. rerum eveniet voluptas cumque reiciendis in omnis ratione impedit sunt ipsam occaecati repudiandae. sunt est et enim fugiat harum facilis voluptate quidem et et et. voluptatem consequatur optio dolorem aut. perspiciatis aut aut ipsum perferendis dolor in harum adipisci aut voluptas quam. eum inventore asperiores aliquid sit ipsum. voluptates repellat veniam sed ut nostrum ut.
+      contact: Contactez-moi
+
     paintings:
       currency: "%{price} €"

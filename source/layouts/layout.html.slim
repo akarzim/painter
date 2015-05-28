@@ -5,9 +5,10 @@ html lang="#{data.settings.site.i18n}"
     meta charset="utf-8"
     meta name="viewport" content="width=device-width,initial-scale=1"
 
-    title #{data.settings.site.title} • #{current_page.data.title}
+    title = [data.settings.site.title, current_page.data.title].join ' • '
     meta name="description" content="#{current_page.data.description}"
 
+    = partial 'open_graph'
     = partial 'favicon'
     = stylesheet_link_tag 'application'
 

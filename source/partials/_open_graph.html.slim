@@ -1,0 +1,20 @@
+meta property='dc:creator'      content="#{data.settings.site.author}"
+meta property='dc:format'       content='text/html'
+meta property='dc:language'     content="#{data.settings.site.language}"
+
+meta property='og:site_name'    content="#{data.settings.site.title}"
+meta property='og:type'         content='website'
+meta property='og:url'          content="#{data.settings.site.url}"
+meta property='og:title'        content="#{[data.settings.site.title, current_page.data.title].join ' • '}"
+meta property='og:description'  content="#{current_page.data.description || data.settings.site.description}"
+meta property='og:image'        content="#{File.join(data.settings.site.url, image_path('me.jpg'))}"
+
+meta name='geo.position'        content='50.625549;2.114667'
+meta name='geo.placename'       content='Merck-Saint-Liévin, Pas-de-Calais'
+meta name='geo.region'          content='FR-62'
+
+meta itemprop='name'            content="#{[data.settings.site.title, current_page.data.title].join ' • '}"
+meta itemprop='description'     content="#{current_page.data.description || data.settings.site.description}"
+meta itemprop='image'           content="#{File.join(data.settings.site.url, image_path('me.jpg'))}"
+
+link rel='publisher' href="#{data.settings.social.google_plus}"

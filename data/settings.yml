@@ -1,7 +1,11 @@
 site:
-  title: Charles VANTOMME
-  description: Artiste peintre, Pastelliste
-  i18n: fr
-  url: 'https://akarzim.github.io/painter'
   author: Charles VANTOMME
-  email: 'ch.vantomme@free.fr'
+  description: Artiste peintre, Pastelliste
+  email: ch.vantomme@free.fr
+  i18n: fr
+  language: fr-FR
+  title: Charles VANTOMME
+  url: https://akarzim.github.io/painter
+
+social:
+  google_plus: https://plus.google.com/+FrançoisVANTOMME

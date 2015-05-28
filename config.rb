@@ -13,15 +13,12 @@ set :fonts_dir, 'assets/fonts'
 
 # Add bower's directory to sprockets asset path
 after_configuration do
-
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-  sprockets.append_path File.join "#{root}", @bower_config["directory"]
-
+  sprockets.append_path File.join "#{root}", @bower_config['directory']
 end
 
 # Build-specific configuration
 configure :build do
-
   activate :favicon_maker do |f|
     f.template_dir  = File.join(root, 'source')
     f.output_dir    = File.join(root, 'build')
@@ -35,7 +32,7 @@ configure :build do
         { icon: 'favicon-96x96.png' },
         { icon: 'favicon-32x32.png' },
         { icon: 'favicon-16x16.png' },
-        { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' },
+        { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' }
       ]
     }
   end
@@ -49,11 +46,10 @@ configure :build do
   activate :sitemap, hostname: data.settings.site.url
 
   activate :robots,
-    rules: [{:user_agent => '*', :allow => %w(/)}],
-    sitemap: File.join(data.settings.site.url, 'sitemap.xml')
+           rules: [{ user_agent: '*', allow: %w(/) }],
+           sitemap: File.join(data.settings.site.url, 'sitemap.xml')
 
   # Use this for gh-pages
   activate :relative_assets
   set :relative_links, true
-
 end

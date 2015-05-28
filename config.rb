@@ -10,6 +10,7 @@ set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
+set :partials_dir, 'partials'
 
 # Add bower's directory to sprockets asset path
 after_configuration do

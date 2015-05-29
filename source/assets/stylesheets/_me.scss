@@ -40,6 +40,12 @@
       padding: 4em;
     }
 
+    .baseline {
+      color: $side-image-background-color;
+      font-family: $sans-serif-bold;
+      text-align: left;
+    }
+
     p {
       color: $base-font-color;
       line-height: $base-line-height;

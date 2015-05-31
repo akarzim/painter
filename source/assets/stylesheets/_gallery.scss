@@ -17,8 +17,7 @@ p.desc {
 
 .cards {
   @include display(flex);
-  @include flex-wrap(wrap-reverse);
-  @include flex-direction(row-reverse);
+  @include flex-flow(row-reverse wrap-reverse);
   @include justify-content(space-between);
 }
 
@@ -32,8 +31,7 @@ p.desc {
   $card-image-hover-background: lighten($card-image-background, 5%);
   $card-margin: 1em;
 
-  @include flex-basis(16em);
-  @include flex-grow(1);
+  @include flex(1 1 16em);
   @include transition (all 0.2s ease-in-out);
   background-color: $card-background;
   border-radius: $base-border-radius;

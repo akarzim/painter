@@ -38,6 +38,11 @@ configure :build do
     }
   end
 
+  activate :webp do |webp|
+    webp.append_extension = true
+    webp.ignore = /^build\/(?!.*assets\/images\/).*/
+  end
+
   activate :minify_html, remove_input_attributes: false
   activate :minify_css
   activate :minify_javascript

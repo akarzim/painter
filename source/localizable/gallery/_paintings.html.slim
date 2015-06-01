@@ -1,7 +1,8 @@
 .cards
   - data.paints.each do |paint|
     .card
-      .card-image
+      picture.card-image
+        source srcset="#{image_path '1200x1000.jpg.webp'} 2x, #{image_path '600x500.jpg.webp'} 1x" type="image/webp"
         = image_tag '600x500.jpg', alt: paint.name, srcset: "1200x1000.jpg 2x, 600x500.jpg 1x"
       .card-header
         = paint.name

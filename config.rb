@@ -39,7 +39,6 @@ configure :build do
   end
 
   activate :webp do |webp|
-    webp.append_extension = true
     webp.ignore = /^build\/(?!.*assets\/images\/).*/
   end
 

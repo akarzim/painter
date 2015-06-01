@@ -24,24 +24,6 @@ h2 {
   }
 }
 
-h3 {
- font-family: $sans-serif-bold;
- font-size: 1em;
- font-weight: 700;
- line-height: 1.4em;
- margin-bottom: 0.5em;
- text-transform: uppercase;
-}
-
-hr {
-  border-bottom: 1px solid $light-gray;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: $base-spacing 0;
-  width: 3em;
-}
-
 p {
   color: $base-font-color;
   font-family: $sans-serif;

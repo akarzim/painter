@@ -10,7 +10,7 @@ gem 'middleman-livereload',       '~> 3.4.2'
 gem 'middleman-minify-html',      '~> 3.4.0'
 gem 'middleman-robots',           '~> 1.0.1'
 gem 'middleman-sitemap',          '~> 0.0.13'
-gem 'middleman-webp',             '~> 0.2.7'
+gem 'middleman-webp',             github: 'akarzim/middleman-webp', branch: 'feature/before_build'
 
 gem 'slim',    '~> 3.0.2'
 gem 'font-awesome-sass', '~> 4.3.2', require: false

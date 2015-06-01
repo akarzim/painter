@@ -40,6 +40,7 @@ configure :build do
 
   activate :webp do |webp|
     webp.ignore = /^build\/(?!.*#{images_dir}\/).*/
+    webp.run_before_build = true
   end
 
   activate :minify_html, remove_input_attributes: false

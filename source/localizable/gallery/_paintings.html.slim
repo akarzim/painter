@@ -1,9 +1,8 @@
 .cards
-  - image_colors = { background_color: '8c9a73', color: '353b37' }
   - data.paints.each do |paint|
     .card
       .card-image
-        = image_tag lorem.image('600x500', image_colors), alt: paint.name, srcset: "#{lorem.image '1200x1000', image_colors} 2x, #{lorem.image '600x500', image_colors}"
+        = image_tag '600x500.jpg', alt: paint.name, srcset: "1200x1000.jpg 2x, 600x500.jpg 1x"
       .card-header
         = paint.name
       .card-copy

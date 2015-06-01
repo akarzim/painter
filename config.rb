@@ -43,6 +43,11 @@ configure :build do
     webp.run_before_build = true
   end
 
+  activate :imageoptim do |imageoptim|
+    imageoptim.pngout = false
+    imageoptim.svgo = false
+  end
+
   activate :minify_html, remove_input_attributes: false
   activate :minify_css
   activate :minify_javascript

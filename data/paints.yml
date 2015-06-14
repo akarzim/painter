@@ -1,45 +1,48 @@
 -
   name: Lumière sur l'étang
+  src: lumiere_sur_l_etang.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
   name: Le chemin
+  src: le_chemin.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
   name: Chute des feuilles
+  src: chute_des_feuilles.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
-  name: Couleur automnale
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Solitude
+  name: Une journée d'automne
+  src: une_journee_d_automne.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
   name: Les pieds dans l'eau
+  src: les_pieds_dans_l_eau.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
-  name: Vue sur le 83
+  name: L'Aveyron
+  src: l_aveyron.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
-  name: Ambiance mystique
+  name: Ancien ruisseau
+  src: ancien_ruisseau.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
-  name: La passerelle
+  name: La sortie du bois
+  src: la_sortie_du_bois.jpg
   support: pastelcard
   dimension: 60 x 50 cm
   price: —

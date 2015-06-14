@@ -2,8 +2,8 @@
   - data.paints.each do |paint|
     .card
       picture.card-image
-        source srcset="#{image_path '1200x1000.webp'} 2x, #{image_path '600x500.webp'} 1x" type="image/webp"
-        = image_tag '600x500.jpg', alt: paint.name, srcset: "1200x1000.jpg 2x, 600x500.jpg 1x"
+        /* source srcset="#{image_path '1200x1000.webp'} 2x, #{image_path '600x500.webp'} 1x" type="image/webp" */
+        = image_tag "tableaux/800x600/#{paint.src}", alt: paint.name, srcset: "tableaux/1600x1200/#{paint.src} 2x, tableaux/800x600/#{paint.src} 1x"
       .card-header
         = paint.name
       .card-copy

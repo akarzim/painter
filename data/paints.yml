@@ -2,13 +2,13 @@
   name: La vague
   src: la_vague
   support: pastelcard
-  dimension: 60 x 50 cm
+  dimension: 50 x 40 cm
   price: —
 -
   name: Mer agitée
   src: mer_agitee
   support: pastelcard
-  dimension: 60 x 50 cm
+  dimension: 50 x 40 cm
   price: —
 -
   name: Les grandes marées
@@ -20,7 +20,7 @@
   name: Forêt de Tournehem
   src: foret_de_tournehem
   support: pastelcard
-  dimension: 60 x 50 cm
+  dimension: 50 x 40 cm
   price: —
 -
   name: Chemin du bout
@@ -38,7 +38,7 @@
   name: Balisage en forêt
   src: balisage_en_foret
   support: pastelcard
-  dimension: 60 x 50 cm
+  dimension: 50 x 40 cm
   price: —
 -
   name: Le bacôve

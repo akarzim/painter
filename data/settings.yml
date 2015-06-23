@@ -5,7 +5,8 @@ site:
   i18n: fr
   language: fr-FR
   title: Charles VANTOMME
-  url: https://akarzim.github.io/painter
+  url: http://charles.vantomme.fr
+  # url: https://akarzim.github.io/painter
 
 social:
   google_plus: https://plus.google.com/+FrançoisVANTOMME

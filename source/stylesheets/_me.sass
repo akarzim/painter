@@ -1,0 +1,62 @@
+.side-image
+  $side-image-background-top: #8c9a73
+  $side-image-background-bottom: #353b37
+  $side-image-background-color: #848768
+  $side-image-content-background: #F9F9F9
+  $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%)
+
+  background: $side-image-content-background
+
+  margin-bottom: 4em
+
+  @include media($large-screen)
+    @include display(table)
+
+  .images-wrapper
+    @include background(url(image-path('me.jpg')), no-repeat $side-image-background-color scroll)
+    background-size: cover
+    background-position-x: center
+    border-bottom: $side-image-border
+    display: block
+    min-height: 30em
+    padding: 3em
+
+    @include media($large-screen)
+      @include span-columns(4)
+      background-position: bottom
+      background-size: cover
+      border-right: $side-image-border
+
+  .side-image-content
+    @include span-columns(12)
+    padding: 1em 1em 2em 1em
+    text-align: center
+
+    @include media($large-screen)
+      @include span-columns(8)
+      padding: 4em
+
+    .baseline
+      color: $side-image-background-color
+      font-family: $sans-serif-bold
+      text-align: left
+
+    p
+      color: $base-font-color
+      line-height: $base-line-height
+      margin-bottom: 3em
+      text-align: left
+
+      &::first-letter
+        font-family: $sans-serif-bold
+        font-weight: 700
+        font-size: 1.2em
+
+    a.button
+      @include flat($action-color)
+      font-weight: normal
+      letter-spacing: .05em
+      padding: 0.7em 1em
+
+  @include display(block)
+  @include clearfix

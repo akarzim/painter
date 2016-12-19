@@ -1,0 +1,13 @@
+---
+fr:
+  gallery:
+    me:
+      baseline: Artiste autodidacte né en 1948 (France, Nord)
+      resume: |
+          À l'age de 17 ans, encouragé par mes parents, je pratique la peinture à l'huile, ce qui me permet d'exposer à l'hôtel de ville de Tourcoing avec les “Amis de Tourcoing”. Ce n'est que des années plus tard, entre-coupées de dessins à la plume et d'aquarelle que je découvre l'Art du Pastel.
+          Ce nouveau medium va me faire découvrir une vraie passion. Je me consacre entièrement au Pastel, en puisant mes sujets dans la douceur des paysages audomarois et prépare ma première exposition personnelle en 1995 avec 43 œuvres présentées.
+          Depuis, je n'ai cessé de mettre en scène la nature, qui est ma spécialité et me permet d'apprécier particulièrement ces moments d'intimité et de sensibilité que me procure le Pastel.
+      contact: Contactez-moi
+
+    paintings:
+      currency: "%{price} €"

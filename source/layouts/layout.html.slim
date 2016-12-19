@@ -1,0 +1,23 @@
+doctype html
+
+html lang="#{data.settings.site.i18n}"
+  head
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+
+    title = [data.settings.site.title, current_page.data.title].join ' • '
+    meta name="description" content="#{current_page.data.description}"
+
+    = partial 'open_graph'
+    = partial 'favicon'
+    = stylesheet_link_tag :application
+
+  body class='#{page_classes}'
+
+    .container
+      == yield
+
+    = partial 'footer'
+    /* = javascript_include_tag 'application' */
+    = yield_content :javascripts

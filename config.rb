@@ -88,6 +88,11 @@ configure :build do
   end
 
   # Use this for gh-pages
-  activate :relative_assets
-  set :relative_links, true
+  # activate :relative_assets
+  # set :relative_links, true
+
+  activate :gh_pages do |gh_pages|
+    gh_pages.remote = 'git@github.com:akarzim/painter.git'
+    gh_pages.branch = 'gh-pages'
+  end
 end

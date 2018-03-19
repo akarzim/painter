@@ -66,6 +66,7 @@ configure :build do
   end
 
   activate :imageoptim do |opts|
+		opts.manifest = true
     # Compressor worker options
     # individual optimisers can be disabled by passing false instead of a hash
     opts.pngout = false

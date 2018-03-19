@@ -1,2 +1,2 @@
 source/images/tableaux/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-source/images/tableaux/**/*.web filter=lfs diff=lfs merge=lfs -text
+source/images/tableaux/**/*.webp filter=lfs diff=lfs merge=lfs -text

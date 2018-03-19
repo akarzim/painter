@@ -10,16 +10,13 @@ gem 'middleman-autoprefixer',          '~> 2.9.0'
 gem 'middleman-compass',               '>= 4.0.0'
 gem 'middleman-favicon-maker',         '~> 4.1.0'
 gem 'middleman-gh_pages',              '~> 0.8.0'
-# gem 'middleman-imageoptim',            '~> 0.2.1'
-# gem 'middleman-imageoptim', github: 'akarzim/middleman-imageoptim'
-gem 'middleman-imageoptim',            path: '~/dev/middleman-imageoptim'
+gem "middleman-imageoptim", github: 'plasticine/middleman-imageoptim', branch: 'master'
 
 gem 'middleman-livereload',            '~> 3.4.6'
 gem 'middleman-minify-html',           '~> 3.4.1'
 gem 'middleman-robots',                '~> 1.3.3'
 gem 'middleman-search_engine_sitemap', '~> 1.4.0'
 # gem 'middleman-sitemap',               '~> 0.0.13'
-# gem 'middleman-webp', github: 'akarzim/middleman-webp', branch: 'feature/before_build'
 gem 'middleman-webp',                  '~> 0.4.3'
 
 gem 'bourbon',           '~> 5.0.0', require: false

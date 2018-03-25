@@ -18,6 +18,8 @@ html lang="#{data.settings.site.i18n}"
     .container
       == yield
 
-    = partial 'footer'
-    /* = javascript_include_tag 'application' */
+      = partial 'footer'
+
+    / = javascript_include_tag 'application'
     = yield_content :javascripts
+

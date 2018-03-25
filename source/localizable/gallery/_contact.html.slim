@@ -1,0 +1,8 @@
+.contact-background
+  .contact-text
+    h4 = I18n.t 'contact.title'
+    p = I18n.t 'contact.description'
+  .contact
+    a.button href="mailto:#{data.settings.site.email}?subject=Demande+de+contact"
+      i.fas.fa-envelope>
+      = I18n.t 'contact.button'

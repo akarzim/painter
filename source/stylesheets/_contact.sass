@@ -1,0 +1,63 @@
+.contact-background
+  $base-border-radius: 3px !default
+  $action-color: #829463
+  $large-screen: 53.75em !default
+  $contact-padding: 4em
+  $contact-text-color: white
+  $contact-background-top: #1e2710
+  $contact-background-bottom: #aaa
+  $gradient-angle: 10deg
+
+  background-image: url(image-path('pastel.png')), url(image-path('mountains.png')), linear-gradient($gradient-angle, $contact-background-bottom, $contact-background-top)
+  background-color: transparent, $contact-background-top, $contact-background-top
+  background-repeat: no-repeat, no-repeat, no-repeat
+  background-position: bottom right, top left, top left
+  background-attachment: scroll
+  background-size: 380px, cover, cover
+  min-height: 27em
+  width: 100%
+
+  +media($large-screen)
+    min-height: 18em
+
+  .contact-text
+    display: block
+    padding: 2em
+
+    +media($large-screen)
+      display: inline-block
+      width: 60%
+      padding: $contact-padding
+      padding-right: 0
+
+
+    h4
+      border-bottom: 1px solid transparentize($contact-text-color, 0.7)
+      color: $contact-text-color
+      font-size: 1.5em
+      margin: 0 0 0.5em 0
+      padding-bottom: 0.5em
+
+    p
+      color: $contact-text-color
+      line-height: 1.5em
+      margin-bottom: 1.5em
+
+  .contact
+    display: block
+    padding: 0 2em
+
+    +media($large-screen)
+      display: inline-block
+      position: absolute
+      padding: $contact-padding
+      width: 40%
+
+    a.button
+      @include flat($action-color)
+      font-size: 1.3em
+      font-weight: normal
+      letter-spacing: .05em
+      text-align: center
+      padding: 1.3em 1em
+      width: 100%

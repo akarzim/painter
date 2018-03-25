@@ -1,6 +1,8 @@
 footer
-  p
+  = partial 'localizable/gallery/contact'
+
+  p.copyright
     '©
-    => Date.today.year
+    acronym title=(DateTime.now) => Date.today.year
     '—
     = data.settings.site.author

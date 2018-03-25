@@ -6,4 +6,7 @@ h1 = data.settings.site.title
 h2 = data.settings.site.description
 
 = partial 'localizable/gallery/me'
+= partial 'localizable/gallery/navigation', locals: { anchor: :gallery }
 = partial 'localizable/gallery/paintings'
+= partial 'localizable/gallery/navigation', locals: { anchor: :events }
+= partial 'localizable/gallery/navigation', locals: { anchor: :agenda }

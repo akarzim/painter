@@ -1,5 +1,11 @@
 ---
 fr:
+  navigation:
+    menu: ≡
+    gallery: Galerie
+    events: Événements
+    agenda: Agenda
+    contact: Contact
   gallery:
     me:
       baseline: Artiste autodidacte né en 1948 (France, Nord)

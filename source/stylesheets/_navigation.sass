@@ -1,0 +1,77 @@
+header.navigation
+  $base-border-color: gainsboro !default
+  $base-border-radius: 3px !default
+  $action-color: #477DCA !default
+  $dark-gray: #333 !default
+  $large-screen: 53.75em !default
+  $navigation-padding: 0.5em
+  $navigation-background: transparent
+  $navigation-color: transparentize($dark-gray, 0.3)
+  $navigation-color-hover: $dark-gray
+  $navigation-height: 40px
+  $navigation-active-link-color: transparentize(white, 0.5)
+  $horizontal-bar-mode: $large-screen
+
+  background-color: $navigation-background
+  border-bottom: 1px solid darken($navigation-background, 10)
+  margin-bottom: 2em
+  min-height: $navigation-height
+  width: 100%
+  z-index: 999
+
+  .navigation-wrapper
+    +clearfix
+
+    position: relative
+    z-index: 9999
+
+  // Nav menu
+  nav
+    float: none
+    min-height: $navigation-height
+    padding-left: $navigation-padding
+    text-align: center
+    z-index: 9999999
+
+  ul.navigation-menu
+    clear: both
+    margin: 0 auto
+    overflow: visible
+    padding: 0
+    width: 100%
+    z-index: 9999
+
+    display: inline
+    margin: 0
+    padding: 0
+
+  // The nav items
+  ul li.nav-link
+    background: $navigation-background
+    display: inline
+    line-height: $navigation-height
+    overflow: hidden
+    padding-right: 1em
+    text-decoration: none
+    text-align: right
+    width: 100%
+    z-index: 9999
+
+    +media($horizontal-bar-mode)
+      padding-right: 4em
+      width: auto
+
+    a
+      color: $navigation-color
+      border-bottom: 3px solid transparent
+      display: inline-block
+      text-decoration: none
+
+      +media($horizontal-bar-mode)
+        padding: 0 0.5em
+
+      &.current,
+      &:focus,
+      &:hover
+        color: $navigation-color-hover
+        border-bottom: 3px solid $navigation-color

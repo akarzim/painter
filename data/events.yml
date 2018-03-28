@@ -1,0 +1,35 @@
+-
+  title: Salon du Pastel en Bretagne
+  period: du 16 au 31 août 2015
+  src: salon_pastel_bretagne_2015
+  paints:
+    -
+      name: Une journée d'automne
+      src: une_journee_d_automne
+      support: pastelcard
+      dimension: 60 x 50 cm
+    -
+      name: Forêt de Tournehem
+      src: foret_de_tournehem
+      support: pastelcard
+      dimension: 50 x 40 cm
+-
+  title: Salon du Pastel en Charente
+  period: du 30 octobre au 7 novembre 2015
+  src: salon_pastel_charente_2015
+  paints:
+    -
+      name: Chemin du bout
+      src: chemin_du_bout
+      support: pastelcard
+      dimension: 60 x 50 cm
+    -
+      name: Les petits buissons
+      src: les_petits_buissons
+      support: pastelcard
+      dimension: 60 x 50 cm
+    -
+      name: Ancien ruisseau
+      src: ancien_ruisseau
+      support: pastelcard
+      dimension: 60 x 50 cm

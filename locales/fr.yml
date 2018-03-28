@@ -3,7 +3,7 @@ fr:
   navigation:
     menu: ≡
     gallery: Galerie
-    events: Événements
+    events: Sélections
     agenda: Agenda
     contact: Contact
   gallery:
@@ -16,6 +16,12 @@ fr:
 
     paintings:
       currency: "%{price} €"
+  events:
+    international_exhibition: Salons Internationaux
+    regional_exhibition: Expos Régionales
+    selection_count:
+      one: 1 tableau
+      other: "%{count} tableaux"
   contact:
     title: Gardons le contact !
     description: Pour cela, envoyez-moi simplement un courriel en cliquant sur ce bouton.

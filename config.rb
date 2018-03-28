@@ -63,6 +63,9 @@ configure :build do
   activate :webp do |webp|
     webp.ignore = %r{^build\/(?!.*#{config.images_dir}\/).*}
     webp.run_before_build = true
+    webp.conversion_options = {
+      "source/images/tableaux/*.jpg" => { lossless: true, z: 6 }
+    }
   end
 
   activate :imageoptim do |opts|

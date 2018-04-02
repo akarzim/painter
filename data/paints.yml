@@ -1,18 +1,6 @@
 -
-  name: La vague
-  src: la_vague
-  support: pastelcard
-  dimension: 50 x 40 cm
-  price: —
--
-  name: Mer agitée
-  src: mer_agitee
-  support: pastelcard
-  dimension: 50 x 40 cm
-  price: —
--
-  name: Les grandes marées
-  src: les_grandes_marees
+  name: La sortie du bois
+  src: la_sortie_du_bois
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
@@ -23,26 +11,20 @@
   dimension: 50 x 40 cm
   price: —
 -
-  name: Chemin du bout
-  src: chemin_du_bout
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Berry
-  src: berry
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Balisage en forêt
-  src: balisage_en_foret
+  name: La vague
+  src: la_vague
   support: pastelcard
   dimension: 50 x 40 cm
   price: —
 -
-  name: Le bacôve
-  src: le_bacove
+  name: Les grandes marées
+  src: les_grandes_marees
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin du bout
+  src: chemin_du_bout
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
@@ -53,26 +35,44 @@
   dimension: 60 x 50 cm
   price: —
 -
+  name: Jacinthes et genêts
+  src: jacinthes_et_genets
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Vers le bois Dhenne
+  src: vers_le_bois_dhenne
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Automne en Charente
+  src: automne_en_charente
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Pont de pierres
+  src: pont_de_pierres
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
   name: Lumière sur l'étang
   src: lumiere_sur_l_etang
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
-  name: Le chemin
-  src: le_chemin
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Chute des feuilles
-  src: chute_des_feuilles
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
   name: Les pieds dans l'eau
   src: les_pieds_dans_l_eau
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Pirogue Océanienne
+  src: pirogue_oceanienne
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
@@ -89,14 +89,194 @@
   dimension: 60 x 50 cm
   price: —
 -
-  name: Une journée d'automne
-  src: une_journee_d_automne
+  name: Oliviers en Provence
+  src: oliviers_en_provence
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: Nuages
+  src: nuages
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: Port de Camaret
+  src: port_de_camaret
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: Fin de journée d'hiver
+  src: une_belle_fin_de_journee_d_hiver
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: L'Epte à Giverny
+  src: l_epte_a_giverny
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Sous bois
+  src: sous_bois
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Derrière l'église
+  src: derriere_l_eglise
   support: pastelcard
   dimension: 60 x 50 cm
   price: —
 -
-  name: La sortie du bois
-  src: la_sortie_du_bois
+  name: Arbre 3
+  src: arbre_3
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: Arbre 1
+  src: arbre_1
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: L'arbre bleu
+  src: l_arbre_bleu
   support: pastelcard
   dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin en campagne
+  src: chemin_en_campagne
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: La Drôme
+  src: la_drome
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin rocailleux
+  src: chemin_rocailleux
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Les roches
+  src: les_roches
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Au bout de la plage
+  src: au_bout_de_la_plage
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: La porte du soleil
+  src: la_porte_du_soleil
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Lisière du bois
+  src: lisiere_du_bois
+  support: pastelcard
+  dimension: 40 x 50 cm
+  price: —
+-
+  name: La boule de foin
+  src: la_boule_de_foin_2
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Versant soleil
+  src: versant_soleil
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Tas de pois
+  src: tas_de_pois
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Sur la Seine
+  src: sur_la_seine
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Contre-jour
+  src: contre_jour
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin des écoliers
+  src: chemin_des_ecoliers
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Pavillon de chasse
+  src: pavillon_de_chasse
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Lumière en Périgord
+  src: lumiere_en_perigord
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Le petit arbre
+  src: le_petit_arbre
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Port de Sauzon
+  src: port_de_sauzon
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Gué sur le Colostre
+  src: gue_sur_le_colostre
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin des Truffières
+  src: chemin_des_truffieres
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: La vue d'en face
+  src: la_vue_d_en_face
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Miroir
+  src: miroir
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Les remous
+  src: les_remous
+  support: pastelcard
+  dimension: 50 x 60 cm
   price: —

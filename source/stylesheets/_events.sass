@@ -1,3 +1,15 @@
+.event-stream
+  +media($large-screen)
+    display: inline-block
+    width: 52%
+    vertical-align: top
+    margin-right: 6%
+
+    &:last-of-type
+      width: 42%
+      margin-right: 0
+      font-size: 0.8em
+
 .event
   $base-border-radius: 3px !default
   $base-spacing: 1.5em !default
@@ -16,7 +28,7 @@
   width: 100%
 
   &.event-header
-    margin-bottom: 1em
+    margin-bottom: 1rem
     margin-top: 2em
     padding: 0 1rem 1rem
     font-size: 1.2em
@@ -25,8 +37,8 @@
     letter-spacing: 0.2em
 
     +media($large-screen)
-      margin-top: 3em
-      font-size: 1.5em
+      margin-top: 3rem
+      font-size: 1.5rem
 
   .event-image,
   .event-content
@@ -53,23 +65,23 @@
     h2
       display: block
       font-size: 1em
-      margin: 0 1em 0 0
+      margin: 0
       text-align: left
 
       +media($large-screen)
-        display: inline-block
-        font-size: 1.3em
+        font-size: 1.1em
         margin: 0 1em 0.5em 0
 
     .event-selection-count
-      display: none
+      display: inline-block
+      width: 30%
       color: $event-detail-color
       font-size: 0.9em
       font-style: italic
-
-      +media($large-screen)
-        display: inline-block
+      text-align: right
 
     .event-period
-      display: block
+      display: inline-block
+      width: 70%
       color: $event-detail-color
+      text-align: left

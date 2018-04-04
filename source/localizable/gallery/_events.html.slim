@@ -1,19 +1,21 @@
-.event.event-header = I18n.t 'events.international_exhibition'
+.event-stream
+  .event.event-header = I18n.t 'events.international_exhibition'
 
-- data.events.reverse_each do |event|
-  .event
-    .event-image
+  - data.events.reverse_each do |event|
+    .event
+      .event-image
         = image_tag "events/#{event.src}.jpg", alt: event.title
       .event-content
         h2 = event.title
-        .event-selection-count = I18n.t 'events.selection_count', count: event.selection_count
         .event-period = event.period
+        .event-selection-count = I18n.t 'events.selection_count', count: event.selection_count
 
+.event-stream
   .event.event-header = I18n.t 'events.regional_exhibition'
 
   - data.exhibits.reverse_each do |event|
-  .event
-    .event-content
-      h2 = event.title
-      .event-selection-count = I18n.t 'events.selection_count', count: event.selection_count
-      .event-period = event.period
+    .event
+      .event-content
+        h2 = event.title
+        .event-period = event.period
+        .event-selection-count = I18n.t 'events.selection_count', count: event.selection_count

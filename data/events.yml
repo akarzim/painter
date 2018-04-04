@@ -2,34 +2,54 @@
   title: Salon du Pastel en Bretagne
   period: du 16 au 31 août 2015
   src: salon_pastel_bretagne_2015
-  paints:
-    -
-      name: Une journée d'automne
-      src: une_journee_d_automne
-      support: pastelcard
-      dimension: 60 x 50 cm
-    -
-      name: Forêt de Tournehem
-      src: foret_de_tournehem
-      support: pastelcard
-      dimension: 50 x 40 cm
+  selection_count: 2
 -
   title: Salon du Pastel en Charente
   period: du 30 octobre au 7 novembre 2015
   src: salon_pastel_charente_2015
-  paints:
-    -
-      name: Chemin du bout
-      src: chemin_du_bout
-      support: pastelcard
-      dimension: 60 x 50 cm
-    -
-      name: Les petits buissons
-      src: les_petits_buissons
-      support: pastelcard
-      dimension: 60 x 50 cm
-    -
-      name: Ancien ruisseau
-      src: ancien_ruisseau
-      support: pastelcard
-      dimension: 60 x 50 cm
+  selection_count: 3
+-
+  title: Salon International de Pastel d'Opale
+  period: du 5 au 20 mars 2016
+  src: pastel_opale_2016
+  selection_count: 2
+-
+  title: Salon des Pastellistes Belges à Namur
+  period: du 2 au 10 avril 2016
+  src: pastellistes_belges_2016
+  selection_count: 3
+-
+  title: Salon « Les Pastellistes » à Montréal
+  period: du 28 octobre au 6 novembre 2016
+  src: pastelsec_2016
+  selection_count: 3
+-
+  title: Salon « Pastel toujours » à St Charles Borromée — Québec
+  period: du 30 mars au 23 avril 2017
+  src: pastel_toujours_2017
+  selection_count: 2
+-
+  title: Salon du Pastel en Bretagne
+  period: du 12 au 17 août 2017
+  src: pastel_bretagne_2017
+  selection_count: 2
+-
+  title: Salon les Monts du Lyonnais
+  period: du 8 au 24 septembre 2017
+  src: monts_lyonnais_2017
+  selection_count: 3
+-
+  title: Salon « Les Pastellistes » à Montréal
+  period: du 27 octobre au 5 novembre 2017
+  src: pastelsec_2017
+  selection_count: 3
+-
+  title: Salon International de Pastel d'Opale
+  period: du 3 au 18 mars 2018
+  src: pastel_opale_2018
+  selection_count: 1
+-
+  title: Salon des Pastellistes Belges à Namur
+  period: du 31 mars au 8 avril 2018
+  src: pastellistes_belges_2018
+  selection_count: 3

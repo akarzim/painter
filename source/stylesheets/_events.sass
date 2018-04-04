@@ -3,7 +3,7 @@
   $base-spacing: 1.5em !default
   $dark-gray: #333 !default
   $base-font-color: $dark-gray !default
-  $event-gutter: 1.4em
+  $event-gutter: 1em
   $event-image-width: 4em
   $event-color: $base-font-color
   $event-detail-color: transparentize($event-color, 0.5)
@@ -16,16 +16,16 @@
   width: 100%
 
   &.event-header
-    margin-bottom: 1.5em
+    margin-bottom: 1em
     margin-top: 2em
-    padding: 0 0 0 1em
+    padding: 0 1rem 1rem
     font-size: 1.2em
+    font-variant: small-caps
     color: $event-detail-color
-    letter-spacing: 0.8em
+    letter-spacing: 0.2em
 
     +media($large-screen)
       margin-top: 3em
-      padding: 0
       font-size: 1.5em
 
   .event-image,
@@ -53,12 +53,13 @@
     h2
       display: block
       font-size: 1em
-      margin: 0 1em 0.5em 0
+      margin: 0 1em 0 0
       text-align: left
 
       +media($large-screen)
         display: inline-block
         font-size: 1.3em
+        margin: 0 1em 0.5em 0
 
     .event-selection-count
       display: none
@@ -68,7 +69,6 @@
 
       +media($large-screen)
         display: inline-block
-        width: 50%
 
     .event-period
       display: block

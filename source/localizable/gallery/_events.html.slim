@@ -4,7 +4,7 @@
   - data.events.reverse_each do |event|
     .event
       .event-image
-        = image_tag "events/#{event.src}.jpg", alt: event.title
+        = tag :img, class: "lazy", "data-src": "/images/events/#{event.src}.jpg", height: "64px", width: "64px"
       .event-content
         h2 = event.title
         .event-period = event.period

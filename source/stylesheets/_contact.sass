@@ -9,7 +9,7 @@
   $gradient-angle: 10deg
 
   background-image: url(image-path('pastel.png')), url(image-path('mountains.png')), linear-gradient($gradient-angle, $contact-background-bottom, $contact-background-top)
-  background-color: transparent, $contact-background-top, $contact-background-top
+  background-color: $contact-background-top
   background-repeat: no-repeat, no-repeat, no-repeat
   background-position: bottom right, top left, top left
   background-attachment: scroll
@@ -17,14 +17,14 @@
   min-height: 27em
   width: 100%
 
-  +media($large-screen)
+  @media screen and (min-width: $large-screen)
     min-height: 18em
 
   .contact-text
     display: block
     padding: 2em
 
-    +media($large-screen)
+    @media screen and (min-width: $large-screen)
       display: inline-block
       width: 60%
       padding: $contact-padding
@@ -47,17 +47,18 @@
     display: block
     padding: 0 2em
 
-    +media($large-screen)
+    @media screen and (min-width: $large-screen)
       display: inline-block
       position: absolute
       padding: $contact-padding
       width: 40%
 
     a.button
-      @include flat($action-color)
+      display: block
+      color: #fff
+      background-color: $action-color
       font-size: 1.3em
       font-weight: normal
       letter-spacing: .05em
       text-align: center
       padding: 1.3em 1em
-      width: 100%

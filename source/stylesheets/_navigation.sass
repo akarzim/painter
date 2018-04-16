@@ -20,8 +20,6 @@ header.navigation
   z-index: 999
 
   .navigation-wrapper
-    +clearfix
-
     position: relative
     z-index: 9999
 
@@ -57,7 +55,7 @@ header.navigation
     width: 100%
     z-index: 9999
 
-    +media($horizontal-bar-mode)
+    @media screen and (min-width: #{$horizontal-bar-mode})
       padding-right: 4em
       width: auto
 
@@ -67,7 +65,7 @@ header.navigation
       display: inline-block
       text-decoration: none
 
-      +media($horizontal-bar-mode)
+      @media screen and (min-width: #{$horizontal-bar-mode})
         padding: 0 0.5em
 
       &.current,

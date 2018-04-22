@@ -1,10 +1,5 @@
 @charset "UTF-8"
 
-@import "bourbon/bourbon"
-@import "neat/neat"
-@import "font-awesome-compass"
-@import "font-awesome"
-
 @import "normalize"
 @import "variables"
 @import "fonts"
@@ -16,3 +11,20 @@
 @import "events"
 @import "contact"
 @import "footer"
+
+
+
+*
+  box-sizing: border-box
+
+// Replace font-awesome in contact button
+svg
+  display: inline-block
+  vertical-align: middle
+.button svg
+  width: 1em
+  height: 1em
+  margin-top: -4px
+  margin-right: 0.35em
+.button
+  border-radius: 3px

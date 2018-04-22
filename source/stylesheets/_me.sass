@@ -5,15 +5,18 @@
   $side-image-content-background: #F9F9F9
   $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%)
 
-  background: $side-image-content-background
 
+  display: block
   margin-bottom: 2em
 
-  @include media($large-screen)
-    @include display(table)
+  background: $side-image-content-background
+
+  @media screen and (min-width: $large-screen)
+    display: table
 
   .images-wrapper
-    @include background(url(image-path('me.jpg')), no-repeat $side-image-background-color scroll)
+    box-sizing: border-box
+    background: $side-image-background-color url(image-path('me.jpg')) no-repeat scroll
     background-size: cover
     background-position-x: center
     border-bottom: $side-image-border
@@ -21,24 +24,29 @@
     min-height: 30em
     padding: 3em
 
-    @include media($large-screen)
-      @include span-columns(4)
+    @media screen and (min-width: $large-screen)
+      float: left
+      display: block
+      margin-right: 2%
+      width: 32%
       background-position: bottom
       background-size: cover
       border-right: $side-image-border
 
   .side-image-content
-    @include span-columns(12)
+    box-sizing: border-box
     padding: 1em 1em 2em 1em
     text-align: center
 
-    @include media($large-screen)
-      @include span-columns(8)
+    @media screen and (min-width: $large-screen)
+      float: left
+      display: block
+      margin-right: 0
+      width: 66%
       padding: 4em
 
     .baseline
       color: $side-image-background-color
-      font-family: $sans-serif-bold
       font-weight: 700
       text-align: left
 
@@ -49,15 +57,14 @@
       text-align: left
 
       &::first-letter
-        font-family: $sans-serif-bold
+
         font-weight: 700
         font-size: 1.2em
 
     a.button
-      @include flat($action-color)
+      color: #fff
+      background-color: $action-color
       font-weight: normal
       letter-spacing: .05em
       padding: 0.7em 1em
 
-  @include display(block)
-  @include clearfix

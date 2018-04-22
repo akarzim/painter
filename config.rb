@@ -1,12 +1,11 @@
 require 'pry'
 require 'slim'
 # Slim::Engine.disable_option_validator!
-require 'font-awesome-sass'
 
 ###
 # Page options, layouts, aliases and proxies
 ###
-activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
+activate :autoprefixer, browsers: ['last 2 versions', 'Explorer >= 8']
 activate :directory_indexes
 activate :i18n
 

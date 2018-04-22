@@ -1,13 +1,12 @@
 body
   font-family: $sans-serif
-  margin-top: 2em
 
 h1
   font-family: $serif
   font-size: 2.6em
   margin-bottom: 0.2em
 
-  @include media($medium-screen)
+  @media screen and (min-width: $medium-screen)
     font-size: 3.4em
 
 h2
@@ -16,7 +15,7 @@ h2
   line-height: 1.5em
   margin-bottom: 1.2em
 
-  @include media($medium-screen)
+  @media screen and (min-width: $medium-screen)
     font-size: 1.3em
 
 p

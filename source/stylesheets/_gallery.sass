@@ -9,9 +9,10 @@ h1, h2
   text-align: right
 
 .cards
-  @include display(flex)
-  @include flex-flow(row-reverse wrap-reverse)
-  @include justify-content(space-between)
+  display: flex
+  flex-flow: row-reverse wrap-reverse
+  justify-content: space-between
+  margin: auto -1em
 
 .card
   $card-border-color: $base-border-color
@@ -23,8 +24,8 @@ h1, h2
   $card-image-hover-background: lighten($card-image-background, 5%)
   $card-margin: 1em
 
-  @include flex(1 1 17em)
-  @include transition (all 0.2s ease-in-out)
+  flex: 1 1 20em
+  transition: all 0.2s ease-in-out
   background-color: $card-background
   border-radius: $base-border-radius
   border: $card-border
@@ -35,18 +36,17 @@ h1, h2
 
   .card-image
     img
-      @include transition (all 0.2s ease-in-out)
+      transition: all 0.2s ease-in-out
       background: $card-image-background
       border-top-left-radius: $base-border-radius
       border-top-right-radius: $base-border-radius
       width: 100%
 
   .card-header
-    @include transition (all 0.2s ease-in-out)
+    transition: all 0.2s ease-in-out
     background-color: $card-header-background
     border-bottom: $card-border
     border-radius: $base-border-radius $base-border-radius 0 0
-    font-family: $sans-serif-bold
     font-weight: 700
     line-height: 1.5em
     padding: ($base-spacing / 3) ($base-spacing / 2)

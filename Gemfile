@@ -8,7 +8,7 @@ ruby '2.5.0'
 gem 'middleman',                       '~> 4.2.1'
 gem 'middleman-autoprefixer',          '~> 2.9.0'
 gem 'middleman-favicon-maker',         '~> 4.1.0'
-gem 'middleman-gh_pages',              '~> 0.8.0'
+gem 'middleman-gh_pages',              '~> 0.9.0'
 gem "middleman-imageoptim", github: 'plasticine/middleman-imageoptim', branch: 'master'
 
 gem 'middleman-livereload',            '~> 3.4.6'

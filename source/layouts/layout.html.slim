@@ -20,6 +20,5 @@ html lang="#{data.settings.site.i18n}"
 
       = partial 'footer'
 
-    / = javascript_include_tag 'application'
-    = yield_content :javascripts
+    = javascript_include_tag :application
 

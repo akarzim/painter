@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function(){
-  let lazyImages = Array.prototype.slice.call(document.querySelectorAll(".lazy"));
+  var lazyImages = Array.prototype.slice.call(document.querySelectorAll(".lazy"));
 
-  let loadImage = function(lazyImage) {
+  var loadImage = function(lazyImage) {
     if (lazyImage.dataset.src) { lazyImage.src = lazyImage.dataset.src; }
     if (lazyImage.dataset.srcset) { lazyImage.srcset = lazyImage.dataset.srcset; }
   };
 
   if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries) {
+    var lazyImageObserver = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
-          let lazyImage = entry.target;
+          var lazyImage = entry.target;
           loadImage(lazyImage);
           lazyImageObserver.unobserve(lazyImage);
         }
@@ -24,15 +24,15 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   } else {
     // Possibly fall back to a more compatible method here
-    let active = false;
+    var active = false;
 
-    let isImgVisible = function (lazyImage) {
+    var isImgVisible = function (lazyImage) {
       return (lazyImage.getBoundingClientRect().top <= window.innerHeight) &&
              (lazyImage.getBoundingClientRect().bottom >= 0) &&
              getComputedStyle(lazyImage).display !== "none";
     };
 
-    let lazyLoad = function() {
+    var lazyLoad = function() {
       if (!active) {
         active = true;
 

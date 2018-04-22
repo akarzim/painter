@@ -3,8 +3,9 @@
 
   - data.events.reverse_each do |event|
     .event
-      .event-image
-        = tag :img, class: "lazy", "data-src": "/images/events/#{event.src}.jpg", height: "64px", width: "64px"
+      picture.event-image
+        = tag :source, class: "lazy", "data-srcset": image_path("events/#{event.src}.webp"), type: "image/webp"
+        = tag :img, class: "lazy", "data-src": image_path("events/#{event.src}.jpg"), "style": "height:64px; width:64px", alt: event.title
       .event-content
         h2 = event.title
         .event-period = event.period

@@ -2,8 +2,8 @@
   - data.paints.each do |paint|
     .card
       picture.card-image
-        = tag :source,  "data-srcset": "#{image_path 'tableaux/1600x1200/' + paint.src + '.webp'} 2x, #{image_path 'tableaux/800x600/' + paint.src + '.webp'} 1x", type: "image/webp", class: 'lazy'
-        = tag :img, class: "lazy", "data-srcset": "/images/tableaux/1600x1200/#{paint.src}.jpg 2x, /images/tableaux/800x600/#{paint.src}.jpg 1x", "data-src": "/images/tableaux/800x600/#{paint.src}.jpg", "style": "min-height:270px", alt: paint.name
+        = tag :source, class: "lazy", "data-srcset": image_path("tableaux/1600x1200/#{paint.src}.webp") + " 2x, " + image_path("tableaux/800x600/#{paint.src}.webp") + " 1x", type: "image/webp"
+        = tag :img, class: "lazy", "data-srcset": image_path("tableaux/1600x1200/#{paint.src}.jpg") + " 2x, " + image_path("tableaux/800x600/#{paint.src}.jpg") + " 1x", "data-src": image_path("tableaux/800x600/#{paint.src}.jpg"), style: "min-height: 270px", alt: paint.name
       .card-header
         = paint.name
       .card-copy

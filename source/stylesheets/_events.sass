@@ -11,6 +11,7 @@
       font-size: 0.8em
 
 .event
+  $action-color: #829463
   $base-border-radius: 3px !default
   $base-spacing: 1.5em !default
   $dark-gray: #333 !default
@@ -20,12 +21,17 @@
   $event-color: $base-font-color
   $event-detail-color: transparentize($event-color, 0.5)
   $event-image-vert-alignment: middle
+  $event-forthcoming-color: transparentize($action-color, 0.9)
 
   border-bottom: 1px solid transparentize($event-color, 0.9)
   display: table
   margin-bottom: $base-spacing
   padding: 0 1em 1em
   width: 100%
+
+  &.forthcoming
+    background: linear-gradient(white, $event-forthcoming-color)
+
 
   &.event-header
     margin-bottom: 1rem

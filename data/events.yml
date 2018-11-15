@@ -5,7 +5,7 @@
   selection_count: 2
 -
   title: Salon du Pastel en Charente
-  period: du 30 octobre au 7 novembre 2015
+  period: du 30 oct. au 7 nov. 2015
   src: salon_pastel_charente_2015
   selection_count: 3
 -
@@ -20,7 +20,7 @@
   selection_count: 3
 -
   title: Salon « Les Pastellistes » à Montréal
-  period: du 28 octobre au 6 novembre 2016
+  period: du 28 oct. au 6 nov. 2016
   src: pastelsec_2016
   selection_count: 3
 -
@@ -35,12 +35,12 @@
   selection_count: 2
 -
   title: Salon les Monts du Lyonnais
-  period: du 8 au 24 septembre 2017
+  period: du 8 au 24 sept. 2017
   src: monts_lyonnais_2017
   selection_count: 3
 -
   title: Salon « Les Pastellistes » à Montréal
-  period: du 27 octobre au 5 novembre 2017
+  period: du 27 oct. au 5 nov. 2017
   src: pastelsec_2017
   selection_count: 3
 -
@@ -53,3 +53,8 @@
   period: du 31 mars au 8 avril 2018
   src: pastellistes_belges_2018
   selection_count: 3
+-
+  title: Salon « Pastel Toujours » à Victoriaville — Québec
+  period: du 3 juin au 9 sept. 2018
+  src: pastel_toujours_2018
+  selection_count: 1

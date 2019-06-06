@@ -107,24 +107,6 @@
   dimension: 50 x 40 cm
   price: —
 -
-  name: Fin de journée d'hiver
-  src: une_belle_fin_de_journee_d_hiver
-  support: pastelcard
-  dimension: 50 x 60 cm
-  price: —
--
-  name: L'Epte à Giverny
-  src: l_epte_a_giverny
-  support: pastelcard
-  dimension: 50 x 70 cm
-  price: —
--
-  name: Sous bois
-  src: sous_bois
-  support: pastelcard
-  dimension: 50 x 70 cm
-  price: —
--
   name: Derrière l'église
   src: derriere_l_eglise
   support: pastelcard
@@ -215,24 +197,6 @@
   dimension: 50 x 70 cm
   price: —
 -
-  name: Contre-jour
-  src: contre_jour
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Chemin des écoliers
-  src: chemin_des_ecoliers
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Pavillon de chasse
-  src: pavillon_de_chasse
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
   name: Lumière en Périgord
   src: lumiere_en_perigord
   support: pastelcard
@@ -249,6 +213,48 @@
   src: port_de_sauzon
   support: pastelcard
   dimension: 50 x 70 cm
+  price: —
+-
+  name: Fin de journée d'hiver
+  src: une_belle_fin_de_journee_d_hiver
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: L'Epte à Giverny
+  src: l_epte_a_giverny
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Sous bois
+  src: sous_bois
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+# -
+#   name: Première neige
+#   src: premiere_neige
+#   support: pastelcard
+#   dimension: 50 x 60 cm
+#   price: —
+-
+  name: Contre-jour
+  src: contre_jour
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin des écoliers
+  src: chemin_des_ecoliers
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Pavillon de chasse
+  src: pavillon_de_chasse
+  support: pastelcard
+  dimension: 60 x 50 cm
   price: —
 -
   name: Gué sur le Colostre
@@ -279,4 +285,64 @@
   src: les_remous
   support: pastelcard
   dimension: 50 x 60 cm
+  price: —
+-
+  name: L'Érable (Québec)
+  src: l_erable_quebec
+  support: pastelcard
+  dimension: 51 x 61 cm
+  price: —
+-
+  name: Sentier « Le pied des sommets »
+  src: sentier_le_pied_des_sommets
+  support: pastelcard
+  dimension: 51 x 71 cm
+  price: —
+-
+  name: Sentier du belvédère
+  src: sentier_du_belvedere
+  support: pastelcard
+  dimension: 51 x 71 cm
+  price: —
+-
+  name: Retour du belvédère
+  src: retour_du_belvedere
+  support: pastelcard
+  dimension: 51 x 71 cm
+  price: —
+-
+  name: Charlevoix (Québec)
+  src: charlevoix_quebec
+  support: pastelcard
+  dimension: 61 x 51 cm
+  price: —
+-
+  name: Saint Urbain
+  src: saint_urbain
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Parc des grands jardins (Québec)
+  src: parc_des_grands_jardins_quebec
+  support: pastelcard
+  dimension: 61 x 51 cm
+  price: —
+-
+  name: La grange (Québec)
+  src: la_grange_quebec
+  support: pastelcard
+  dimension: 61 x 51 cm
+  price: —
+-
+  name: Rivière aux castors (Québec)
+  src: riviere_aux_castors_quebec
+  support: pastelcard
+  dimension: 61 x 51 cm
+  price: —
+-
+  name: Vue sur Montréal
+  src: vue_sur_montreal
+  support: pastelcard
+  dimension: 81 x 61 cm
   price: —

@@ -143,6 +143,42 @@
   dimension: 60 x 50 cm
   price: —
 -
+  name: Contre-jour
+  src: contre_jour
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin des écoliers
+  src: chemin_des_ecoliers
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Pavillon de chasse
+  src: pavillon_de_chasse
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Gué sur le Colostre
+  src: gue_sur_le_colostre
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin des Truffières
+  src: chemin_des_truffieres
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: La vue d'en face
+  src: la_vue_d_en_face
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
   name: Chemin rocailleux
   src: chemin_rocailleux
   support: pastelcard
@@ -232,48 +268,6 @@
   support: pastelcard
   dimension: 50 x 70 cm
   price: —
-# -
-#   name: Première neige
-#   src: premiere_neige
-#   support: pastelcard
-#   dimension: 50 x 60 cm
-#   price: —
--
-  name: Contre-jour
-  src: contre_jour
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Chemin des écoliers
-  src: chemin_des_ecoliers
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Pavillon de chasse
-  src: pavillon_de_chasse
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Gué sur le Colostre
-  src: gue_sur_le_colostre
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: Chemin des Truffières
-  src: chemin_des_truffieres
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
--
-  name: La vue d'en face
-  src: la_vue_d_en_face
-  support: pastelcard
-  dimension: 60 x 50 cm
-  price: —
 -
   name: Miroir
   src: miroir
@@ -311,6 +305,24 @@
   dimension: 51 x 71 cm
   price: —
 -
+  name: La chute d'eau (Québec)
+  src: la_chute_d_eau_quebec
+  support: pastelcard
+  dimension: 51 x 71 cm
+  price: —
+-
+  name: La rivière des rochers (Québec)
+  src: la_riviere_des_rochers_quebec
+  support: pastelcard
+  dimension: 51 x 61 cm
+  price: —
+-
+  name: Première neige (Québec)
+  src: premiere_neige
+  support: pastelcard
+  dimension: 61 x 51 cm
+  price: —
+-
   name: Charlevoix (Québec)
   src: charlevoix_quebec
   support: pastelcard
@@ -341,8 +353,62 @@
   dimension: 61 x 51 cm
   price: —
 -
-  name: Vue sur Montréal
+  name: Vue sur Montréal (Québec)
   src: vue_sur_montreal
   support: pastelcard
   dimension: 81 x 61 cm
   price: —
+-
+  name: Avant l'orage (Québec)
+  src: avant_l_orage_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Lac Sainte-Marie (Québec)
+  src: lac_sainte_marie_quebec
+  support: pastelcard
+  dimension: 51 x 61  cm
+  price: —
+-
+  name: Un bien bel endroit (Québec)
+  src: un_bien_bel_endroit_quebec
+  support: pastelcard
+  dimension: 51 x 61 cm
+  price: —
+-
+  name: Neige en novembre (Québec)
+  src: neige_en_novembre
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+# -
+#   name: Au petit matin (Québec)
+#   src: au_petit_matin_quebec
+#   support: pastelcard
+#   dimension: 60 x 50 cm
+#   price: —
+-
+  name: La mare au miroirs (Québec)
+  src: la_mare_aux_miroirs
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Fin de journée sur Charlevoix (Québec)
+  src: fin_de_journee_sur_charlevoix_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+# -
+#   name: Le petit cours d'eau (Québec)
+#   src: le_petit_cours_d_eau
+#   support: pastelcard
+#   dimension: 51 x 61 cm
+#   price: —
+# -
+#   name: La baie des rochers (Québec)
+#   src: la_baie_des_rochers_quebec
+#   support: pastelcard
+#   dimension: 61 x 51 cm
+#   price: —

@@ -21,7 +21,7 @@
     background-position-x: center
     border-bottom: $side-image-border
     display: block
-    min-height: 30em
+    min-height: 38em
     padding: 3em
 
     @media screen and (min-width: $large-screen)
@@ -43,7 +43,7 @@
       display: block
       margin-right: 0
       width: 66%
-      padding: 4em
+      padding: 4em 4em 2em
 
     .baseline
       color: $side-image-background-color
@@ -53,17 +53,18 @@
     p
       color: $base-font-color
       line-height: $base-line-height
-      margin-bottom: 3em
+      margin: 0.8em 0 0
       text-align: left
 
-      &::first-letter
-
+      &:first-of-type::first-letter
         font-weight: 700
         font-size: 1.2em
 
     a.button
       color: #fff
       background-color: $action-color
+      display: inline-block
+      margin-top: 2em
       font-weight: normal
       letter-spacing: .05em
       padding: 0.7em 1em

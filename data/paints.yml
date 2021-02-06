@@ -412,3 +412,183 @@
 #   support: pastelcard
 #   dimension: 61 x 51 cm
 #   price: —
+-
+  name: Au bord de l'eau
+  src: au_bord_de_l_eau
+  support: pastelcard
+  dimension: 70 x 50 cm
+  price: —
+-
+  name: Château d'Acquembronne, Lumbres
+  src: chateau_d_acquembronne_lumbres
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Château de Crèvecœur, Esquerdes
+  src: chateau_de_crevecoeur_esquerdes
+  support: pastelcard
+  dimension: 50 x 40 cm
+  price: —
+-
+  name: Chemin d'Acquembronne
+  src: chemin_d_acquembronne
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Chemin de Campagnette
+  src: chemin_de_campagnette
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Grands Champs
+  src: grands_champs
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Le grand canyon du Verdon
+  src: le_grand_canyon_du_verdon
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Le parasol rouge
+  src: le_parasol_rouge
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Le petit cabanon, Québec
+  src: le_petit_cabanon_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Les Moreaux, Berry
+  src: les_moreaux_berry
+  support: pastelcard
+  dimension: 70 x 50 cm
+  price: —
+-
+  name: Marina North-Hatley, Québec
+  src: marina_north-hatley_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Moulin de Léa
+  src: moulin_de_lea
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Parc écologique, Shefford, Québec
+  src: parc_ecologique_shefford_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Place des Arts, Montréal
+  src: place_des_arts_montreal
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Pointe-au-pic, La Malbaie, Québec
+  src: pointe-au-pic_la_malbaie_quebec
+  support: pastelcard
+  dimension: 70 x 50 cm
+  price: —
+-
+  name: Rue Rivard, Montréal
+  src: rue_rivard_montreal
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Vue sur le mont Brome, Québec
+  src: vue_sur_le_mont_brome_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: Au petit matin, Québec
+  src: au_petit_matin_quebec
+  support: pastelcard
+  dimension: 60 x 50 cm
+  price: —
+-
+  name: North-Hatley, Québec
+  src: north-hatley_quebec
+  support: pastelcard
+  dimension: 40 x 40 cm
+  price: —
+-
+  name: Fin de vie d'un bateau de pêche
+  src: fin_de_vie_d_un_bateau_de_peche
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: La chapelle Ste Madeleine
+  src: la_chapelle_ste_madeleine
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Lac des braves gens, Québec
+  src: lac_des_braves_gens_quebec
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Le chemin de l'ours, Québec
+  src: le_chemin_de_l_ours_quebec
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Parc du domaine vert, Québec
+  src: parc_du_domaine_vert_quebec
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Petit village au bord de l'eau
+  src: petit_village_au_bord_de_l_eau
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Quiétude
+  src: quietude
+  support: pastelcard
+  dimension: 50 x 70 cm
+  price: —
+-
+  name: Réverbération
+  src: reverberation
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Rive de la malbaie, Québec
+  src: rive_de_la_malbaie_quebec
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Rue de l'église, Merck-St-Liévin
+  src: rue_de_l_eglise_merck-st-lievin
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —
+-
+  name: Rue de la gauchetière, Montréal
+  src: rue_de_la_gauchetiere_montreal
+  support: pastelcard
+  dimension: 50 x 60 cm
+  price: —

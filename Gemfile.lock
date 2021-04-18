@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/alexsanderson/middleman-imageoptim.git
+  remote: https://github.com/alexsanderson/middleman-imageoptim.git
   revision: a22715591888c296574c0abb5d38687569d47c8c
   branch: master
   specs:
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.4.4)
+    activesupport (5.2.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -21,7 +21,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.8.6.5)
       execjs
-    backports (3.20.2)
+    backports (3.21.0)
     builder (3.2.4)
     coderay (1.1.3)
     coffee-script (2.4.1)
@@ -40,10 +40,10 @@ GEM
     execjs (2.7.0)
     exifr (1.3.9)
     fast_blank (1.0.0)
-    fastimage (2.2.2)
+    fastimage (2.2.3)
     favicon_maker (1.3.1)
       docile (~> 1.1)
-    ffi (1.14.2)
+    ffi (1.15.0)
     fspath (3.1.2)
     haml (5.2.1)
       temple (>= 0.8.0)
@@ -66,7 +66,7 @@ GEM
       image_optim (~> 0.19)
     image_size (2.1.0)
     in_threads (1.5.4)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -111,16 +111,13 @@ GEM
       favicon_maker (~> 1.3, >= 1.3.1)
       middleman-core (~> 4.0)
     middleman-gh_pages (0.9.0)
-    middleman-livereload (3.4.6)
+    middleman-livereload (3.4.7)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
-    middleman-pry (1.0.2)
-      middleman (>= 3.3, < 5)
-      pry (~> 0.9)
     middleman-robots (1.3.5)
       middleman-cli (>= 4.0)
       middleman-core (>= 4.0)
@@ -129,7 +126,7 @@ GEM
       middleman-core (~> 4.0)
     middleman-webp (0.4.3)
       middleman-core (~> 4.0)
-    minitest (5.14.3)
+    minitest (5.14.4)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
@@ -137,8 +134,8 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.20.1)
-    progress (3.5.2)
-    pry (0.13.1)
+    progress (3.6.0)
+    pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.6)
@@ -148,7 +145,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
@@ -168,21 +165,21 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 4.3.5)
+  middleman (~> 4.3.11)
   middleman-autoprefixer (~> 2.10.1)
   middleman-favicon-maker (~> 4.1.0)
   middleman-gh_pages (~> 0.9.0)
   middleman-imageoptim!
   middleman-livereload (~> 3.4.6)
   middleman-minify-html (~> 3.4.1)
-  middleman-pry (~> 1.0.2)
   middleman-robots (~> 1.3.5)
   middleman-search_engine_sitemap (~> 1.4.0)
   middleman-webp (~> 0.4.3)
+  pry
   slim (~> 4.1.0)
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.7.3p183
 
 BUNDLED WITH
-   1.17.2
+   2.2.16

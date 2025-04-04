@@ -4,11 +4,9 @@
 # the following line to use 'http://'
 source 'https://rubygems.org'
 
-ruby '2.7.3'
-
 # Middleman Gems
-gem 'middleman',                       '~> 4.3.11'
-gem 'middleman-autoprefixer',          '~> 2.10.1'
+gem 'middleman',                       '~> 4.6.0'
+gem 'middleman-autoprefixer',          '~> 3.0.0'
 gem 'middleman-favicon-maker',         '~> 4.1.0'
 gem 'middleman-gh_pages',              '~> 0.9.0'
 # gem 'middleman-imageoptim',            '~> 0.3.0'
@@ -17,7 +15,13 @@ gem 'middleman-livereload',            '~> 3.4.6'
 gem 'middleman-minify-html',           '~> 3.4.1'
 gem 'middleman-robots',                '~> 1.3.5'
 gem 'middleman-search_engine_sitemap', '~> 1.4.0'
-gem 'middleman-webp',                  '~> 0.4.3'
+gem 'middleman-webp',                  '~> 1.0.3'
 
-gem 'slim', '~> 4.1.0', require: false
+gem 'logger', '~> 1.7'
+gem 'mutex_m', '~> 0.3.0'
+gem 'webrick', '~> 1.9', '>= 1.9.1'
+
 gem 'pry', require: false
+gem 'rubocop', '~> 1.75', '>= 1.75.2', require: false
+gem 'rubocop-performance', '~> 1.25', require: false
+gem 'slim', '~> 5.2.1', require: false

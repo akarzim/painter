@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'pry'
 require 'slim'
 # Slim::Engine.disable_option_validator!
@@ -42,7 +44,7 @@ end
 # end
 
 # Build-specific configuration
-configure :build do
+configure :build do # rubocop:disable Metrics/BlockLength
   activate :favicon_maker, icons: {
     File.join(config.images_dir, '_favicon_base.png') => [
       { icon: 'apple-touch-icon-114x114-precomposed.png' },
@@ -60,15 +62,15 @@ configure :build do
   }
 
   activate :webp do |webp|
-    webp.ignore = %r{^build\/(?!.*#{config.images_dir}\/).*}
+    webp.ignore = %r{^build/(?!.*#{config.images_dir}/).*}
     webp.run_before_build = true
     webp.conversion_options = {
-      "source/images/tableaux/*.jpg" => { lossless: true, z: 6 }
+      'source/images/tableaux/*.jpg' => { lossless: true, z: 6 }
     }
   end
 
   activate :imageoptim do |opts|
-		opts.manifest = true
+    opts.manifest = true
     # Compressor worker options
     # individual optimisers can be disabled by passing false instead of a hash
     opts.pngout = false
@@ -86,7 +88,7 @@ configure :build do
   activate :search_engine_sitemap
 
   activate :robots do |opts|
-    opts.rules = [{ user_agent: '*', allow: %w(/) }]
+    opts.rules = [{ user_agent: '*', allow: %w[/] }]
     opts.sitemap = File.join(app.data.settings.site.url, 'sitemap.xml')
   end
 
